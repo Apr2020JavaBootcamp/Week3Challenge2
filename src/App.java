@@ -22,7 +22,7 @@ public class App {
 
 
     //methods
-    //Runs the form for the Contact Tracing Program
+    //Prompts user for information regarding a patient, and returns a Patient object
     public static Patient traceForm(Scanner input) {
         String startLoop = "";
         String[] possibleSymptoms = new String[]{"Fever", "Cough", "Shortness of breath", "Tiredness", "Aches",
